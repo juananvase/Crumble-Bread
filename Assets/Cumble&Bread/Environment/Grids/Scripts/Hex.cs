@@ -1,13 +1,20 @@
 using System;
 using UnityEngine;
 
-public class Grid : MonoBehaviour
+public class Hex : MonoBehaviour
 {
     [field: SerializeField] public bool Init { get; set; } = false;
+    
+    [SerializeField] private MeshRenderer _meshRenderer;
+
+    private void Awake()
+    {
+        _meshRenderer = GetComponentInChildren<MeshRenderer>();
+    }
 
     public void ChangeMaterial(Material material)
     {
-        GetComponentInChildren<MeshRenderer>().material = material;
+        _meshRenderer.material = material;
     }
 }
 
