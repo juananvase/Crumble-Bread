@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1486b14d5647e7f4aad18cf2de14425f, type: 3}
   m_Name: Fruits
   m_EditorClassIdentifier: 
-  <Amount>k__BackingField: 13
+  <GenerationAmount>k__BackingField: 13
   <GridMaterial>k__BackingField: {fileID: 2100000, guid: e4e5146c77e540d42b889bfe32fdc40c, type: 2}
   <Structure>k__BackingField: {fileID: 0}

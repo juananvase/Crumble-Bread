@@ -129,7 +129,7 @@ public class GridManager : MonoBehaviour
 
     private void GenerateRandomResurce(ResourcesSO resource)
     {
-        for (int i = 0; i < resource.Amount; i++)
+        for (int i = 0; i < resource.GenerationAmount; i++)
         {
             Hex selectedHex = null;
             do

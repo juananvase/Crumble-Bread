@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1486b14d5647e7f4aad18cf2de14425f, type: 3}
   m_Name: Ports
   m_EditorClassIdentifier: 
-  <Amount>k__BackingField: 4
+  <GenerationAmount>k__BackingField: 4
   <GridMaterial>k__BackingField: {fileID: 2100000, guid: f04dd1712493e784ea2c2cc15e5c8284, type: 2}
   <Structure>k__BackingField: {fileID: 0}

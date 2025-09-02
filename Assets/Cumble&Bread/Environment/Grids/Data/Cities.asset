@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1486b14d5647e7f4aad18cf2de14425f, type: 3}
   m_Name: Cities
   m_EditorClassIdentifier: 
-  <Amount>k__BackingField: 5
+  <GenerationAmount>k__BackingField: 5
   <GridMaterial>k__BackingField: {fileID: 2100000, guid: 235bd79d395637d44ac45e3b2c3e5e32, type: 2}
   <Structure>k__BackingField: {fileID: 0}
